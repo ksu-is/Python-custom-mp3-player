@@ -31,16 +31,19 @@ class FrameApp(Frame):
         self.b5 = Button(self, text="add", command=self.add_to_list,
                          width=20)
         self.b5.grid(row=5, column=0)
+        
+        self.b6 = Button(self, text="remove", command=self.delete_from_list, width=20)
+        self.b6.grid(row=6, column=0)
 
         self.label1 = Label(self)
-        self.label1.grid(row=6, column=0)
+        self.label1.grid(row=7, column=0)
 
         self.output = Text(self, wrap=WORD, width=50)
-        self.output.grid(row=8, column=0)
+        self.output.grid(row=9, column=0)
 
         # set event to not predefined value in pygame
         self.SONG_END = pygame.USEREVENT + 1
-
+        
         # TODO: Make progressbar, delete songs from playlist, amplify volume
 
     def add_to_list(self):
