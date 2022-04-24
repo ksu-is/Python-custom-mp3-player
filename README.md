@@ -1,4 +1,4 @@
-# Pyhon-custom-mp3-player
+# Python-custom-mp3-player
 
 1. In this application you will be able to import mp3 files into the app
 2. Add these files to a customized playlist
