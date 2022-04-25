@@ -32,7 +32,7 @@ class FrameApp(Frame):
                          width=20)
         self.b5.grid(row=5, column=0)
         
-        self.b6 = Button(self, text="remove", command=self.delete_from_list, width=20)
+        self.b6 = Button(self, text="remove", command=self.grid_remove, width=20)
         self.b6.grid(row=6, column=0)
 
         self.label1 = Label(self)
