@@ -6,7 +6,7 @@
 4. [x] Download required GUI programs (Tkinter, Pygame, Mutagen)
 5. [x] Run source code in Visual Studio or other python capable program to ensure source code is running properly
 6. [ ] Change source code to reflect project goals (Shuffle, import features, etc.)
-7. [ ] Run code in Visual Studio or other python capable program to ensure running program with additional features
+7. [x] Run code in Visual Studio or other python capable program to ensure running program with additional features
 
 
 # Project Road Map | Course Steps
@@ -18,4 +18,7 @@ Sprint 1
 
 Sprint 2
 1. [x] Make small updates with commit messages in the ksu-is organization
-2. [ ] Commit at least 6 code changes of significant size with comments explaining each change
+2. [x] Commit at least 6 code changes of significant size with comments explaining each change
+
+Sprint 3
+1. [x] Create Powerpoint Slide presenting Project goals and pictures displaying program
