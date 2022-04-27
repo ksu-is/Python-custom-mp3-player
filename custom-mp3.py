@@ -7,7 +7,7 @@ import pandas as pd
 
 
 
-master = tk()
+master = Tk()
 master.minsize(360,70)
 master.title("AB369Player")
 
