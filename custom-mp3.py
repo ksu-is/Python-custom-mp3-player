@@ -9,7 +9,7 @@ import pandas as pd
 
 master = Tk()
 master.minsize(360,70)
-master.title("AB369Player")
+master.title("Custom MP3 Player")
 
 trkno = 0
 songs = []
