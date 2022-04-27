@@ -1,13 +1,13 @@
-from Tkinter import *
+from tkinter import *
 import os
 import pygame
-from Tkinter import filedialog
+from tkinter import filedialog
 import numpy as np
 import pandas as pd
 
 
 
-master = Tk()
+master = tk()
 master.minsize(360,70)
 master.title("AB369Player")
 
