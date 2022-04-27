@@ -1,7 +1,7 @@
 from Tkinter import *
 import os
 import pygame
-import tkFileDialog
+from Tkinter import filedialog
 import numpy as np
 import pandas as pd
 
@@ -17,10 +17,12 @@ def browse():
     global songs
     global dir
     songs=[]
-    dir=tkFileDialog.askdirectory()
+    dir = filedialog.askdirectory()
     os.chdir(dir)
     for i in os.listdir(dir):
         if i.endswith(".mp3"):
+            songs.append(i)
+        elif i.endswith(".wav"):
             songs.append(i)
     print songs
     pygame.mixer.init()
@@ -29,7 +31,7 @@ def browse():
 a=np.zeros(56)
 print a
 
-dir = tkFileDialog.askdirectory()
+dir = filedialog.askdirectory()
 os.chdir(dir)
 for i in os.listdir(dir):
     if i.endswith(".mp3"):
