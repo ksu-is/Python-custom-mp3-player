@@ -103,8 +103,8 @@ pi = 0
 vol = 1
 Button(master,text='>>|',command=nexttrk).grid(row=1,column=3,sticky=W,pady=4)
 Button(master,text='|<<',command=prevtrk).grid(row=1,column=0,sticky=W,pady=4)
-Button(master,text='||',command=stop).grid(row=1,column=1,sticky=W,pady=4)
-Button(master,text='>',command=play).grid(row=1,column=2,sticky=W,pady=4)
+Button(master,text='pause',command=stop).grid(row=1,column=1,sticky=W,pady=4)
+Button(master,text='play',command=play).grid(row=1,column=2,sticky=W,pady=4)
 Label(master,textvariable=trkname,font=font1).grid(row=1,column=4)
 Button(master,text=' + ',command=voli).grid(row=2,column=0,sticky=W,pady=4)
 Button(master,text=' - ',command=vold).grid(row=2,column=3,sticky=W,pady=4)
