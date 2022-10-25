@@ -24,19 +24,19 @@ def browse():
             songs.append(i)
         elif i.endswith(".wav"):
             songs.append(i)
-    print songs
+    print (songs)
     pygame.mixer.init()
     pygame.mixer.music.load(songs[0])
 
 a=np.zeros(56)
-print a
+print (a)
 
 dir = filedialog.askdirectory()
 os.chdir(dir)
 for i in os.listdir(dir):
     if i.endswith(".mp3"):
         songs.append(i)
-print songs
+print (songs)
 pygame.mixer.init()
 pygame.mixer.music.load(songs[0])
 
